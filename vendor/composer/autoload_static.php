@@ -30,6 +30,7 @@ class ComposerStaticInit842d2ce2f005b15bb8d206a4ff8b5e6c
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
@@ -58,6 +59,10 @@ class ComposerStaticInit842d2ce2f005b15bb8d206a4ff8b5e6c
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
         'Doctrine\\Instantiator\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
@@ -78,6 +83,10 @@ class ComposerStaticInit842d2ce2f005b15bb8d206a4ff8b5e6c
             'Prophecy\\' => 
             array (
                 0 => __DIR__ . '/..' . '/phpspec/prophecy/src',
+            ),
+            'PhpOption\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/phpoption/phpoption/src',
             ),
         ),
     );
