@@ -1,10 +1,13 @@
 <?php
+
 namespace App;
 
 class Index
 {
-    public function __construct()
+    public $weight;
+    public function __construct($weight = null)
     {
-        echo "It ran ok Index.php";
+        $this->weight = $weight;
+        echo 'Working ok';
     }
 }

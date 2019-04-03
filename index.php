@@ -1,5 +1,4 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
 
-new App\Index;
+require __DIR__ . './Bootstrap.php';
