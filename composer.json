@@ -1,9 +1,16 @@
 {
 	"name": "jwill9999/phpStarter",
 	"description": "PHP starter",
-	"authors": ['Jason Williams','letuscode.co.uk'],
+	"authors": [
+		{
+			"name": "Jason Williams",
+			"email": "jasonwilliams@letuscode.co.uk,
+			"role": "Software Engineer",
+			"homepage": "http://www.letuscode.co.uk"
+		}
+	],
 	"version": "1.0.0",
-	"homepage": "letuscode.co.uk",
+	
 	"autoload": {
 		"psr-4": {
 			"App\\": "App",
