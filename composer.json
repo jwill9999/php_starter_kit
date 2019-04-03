@@ -1,5 +1,5 @@
 {
-	"name": "jwill9999/shoppingcart",
+	"name": "jwill9999/phpStarter",
 	"description": "PHP starter",
 	"autoload": {
 		"psr-4": {
