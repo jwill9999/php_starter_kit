@@ -8,6 +8,7 @@
 		},
 		"files": [
 			"./Framework/ConfigHelpers.php"
+			
 		]
 	},	
 	"require-dev": {

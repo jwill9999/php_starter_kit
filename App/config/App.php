@@ -1,5 +1,11 @@
 <?php
 
+/**
+ *  @function env(key, value)
+ *  @params [.env key] string
+ *  @params [value] string | Boolean | null
+ */
+
 return [
 
     /*
@@ -171,3 +177,5 @@ return [
     ],
 
 ];
+
+

@@ -1,5 +1,9 @@
 <?php
 
+use App\config\Configuration;
+
+
+
 
 // setup autoloader
 require __DIR__ . '/vendor/autoload.php';
@@ -9,8 +13,9 @@ $dotenv = Dotenv\Dotenv::create(__DIR__);
 $dotenv->load();
 
 // configuration bootstrapping
-$app = BootstrapConfiguration();
+$app = AppConfiguration();
+
 
 $core = BootstrapCoreApplication();
 
-$value = env('NO_VALUE', '');
+echo(config($app, 'env'));
