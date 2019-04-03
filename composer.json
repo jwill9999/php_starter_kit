@@ -1,7 +1,7 @@
 {
 	"name": "jwill9999/phpStarter",
 	"description": "PHP starter",
-	"authors": ['Jason Williams' 'letuscode.co.uk'],
+	"authors": ['Jason Williams','letuscode.co.uk'],
 	"version": "1.0.0",
 	"homepage": "letuscode.co.uk",
 	"autoload": {
